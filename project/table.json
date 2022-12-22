@@ -1,0 +1,1374 @@
+{
+  "id": 1240,
+  "education_load_type_id": 1,
+  "subject_id": 4,
+  "education_group_id": 352,
+  "grade_system_id": 1,
+  "work_program_id": null,
+  "name": null,
+  "hours": 4,
+  "users_excluded": [
+    1633,
+    1634,
+    1635,
+    1869,
+    1640,
+    1642,
+    1647,
+    1651,
+    2309
+  ],
+  "created_at": "2022-09-05T14:09:21.000000Z",
+  "updated_at": "2022-09-23T04:52:57.000000Z",
+  "deleted_at": null,
+  "laravel_through_key": 1646,
+  "subject": {
+    "id": 4,
+    "name": "Информатика",
+    "short_name": "Инф-ка",
+    "in_cert": true,
+    "color": "#3002d7",
+    "created_at": null,
+    "updated_at": null,
+    "deleted_at": null
+  },
+  "group": {
+    "id": 352,
+    "year_id": 2,
+    "year_period_category_id": 1,
+    "name": "10в",
+    "number": 10,
+    "mixed_filter": null,
+    "created_at": "2020-08-30T16:19:50.000000Z",
+    "updated_at": "2022-08-25T06:37:20.000000Z",
+    "deleted_at": null,
+    "last_active_year_period": {
+      "id": 5,
+      "year_id": 2,
+      "year_period_category_id": 1,
+      "name": "I полугодие",
+      "from": "2022-09-01",
+      "to": "2022-12-30",
+      "closed_at": "2022-12-31 00:00:00"
+    }
+  },
+  "grade_system": {
+    "id": 1,
+    "name": "Десятичная (0-9)",
+    "created_at": "2022-08-30T08:53:28.000000Z",
+    "updated_at": "2022-08-30T08:53:29.000000Z",
+    "deleted_at": null
+  },
+  "education_load_type": {
+    "id": 1,
+    "name": "Основная",
+    "color": "green"
+  },
+  "teachers": [
+    {
+      "id": 381,
+      "first_name": "Ольга",
+      "last_name": "Безруких",
+      "patronymic": "Юрьевна",
+      "contacts": null,
+      "description": null,
+      "active": 1,
+      "name": "Безруких Ольга",
+      "secure_phone": "+7(***)***-**-61",
+      "full_name": "Безруких Ольга Юрьевна",
+      "avatar": "",
+      "pivot": {
+        "education_load_id": 1240,
+        "user_id": 381
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": 12960,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-12-09",
+      "lesson_id": 4,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-09T03:14:49.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-09T03:14:49.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12959,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-12-09",
+      "lesson_id": 3,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-09T03:14:38.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-09T03:14:38.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12958,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-12-05",
+      "lesson_id": 5,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-09T03:14:27.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-09T03:14:27.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12957,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-12-05",
+      "lesson_id": 4,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-09T03:14:13.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-09T03:14:13.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12243,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-12-02",
+      "lesson_id": 4,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-03T04:35:06.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-03T04:35:21.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12242,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-12-02",
+      "lesson_id": 3,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-03T04:34:58.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-03T04:34:58.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12241,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-28",
+      "lesson_id": 4,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-03T04:34:39.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-03T04:34:39.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 12240,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-28",
+      "lesson_id": 3,
+      "name": "-",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-12-03T04:34:25.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-12-03T04:34:25.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 11274,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-25",
+      "lesson_id": 5,
+      "name": "Двоичный поиск в массиве",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:46:32.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:46:32.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 11273,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-25",
+      "lesson_id": 4,
+      "name": "Двоичный поиск в массиве",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:46:16.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:46:16.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 11272,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-21",
+      "lesson_id": 4,
+      "name": "Сортировка массивов",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:45:27.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:45:27.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [],
+      "grades": [
+        {
+          "id": 34469,
+          "education_load_lesson_id": 11272,
+          "grade_id": 11,
+          "user_id": 1646,
+          "comment": "Ответ на уроке",
+          "created_by": 381,
+          "created_at": "2022-11-26T06:36:28.000000Z",
+          "updated_at": "2022-11-26T06:36:28.000000Z",
+          "grade": {
+            "id": 11,
+            "grade_system_id": 1,
+            "name": "Девятка",
+            "short_name": "9",
+            "cost": 9
+          },
+          "owner": {
+            "id": 381,
+            "first_name": "Ольга",
+            "last_name": "Безруких",
+            "patronymic": "Юрьевна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Безруких Ольга",
+            "secure_phone": "+7(***)***-**-61",
+            "full_name": "Безруких Ольга Юрьевна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11270,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-21",
+      "lesson_id": 3,
+      "name": "Отбор элементов массива по условию",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:44:59.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:44:59.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 11269,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-18",
+      "lesson_id": 5,
+      "name": "Алгоритмы обработки массивов (реверс, сдвиг)",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:44:25.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:44:25.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 11268,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-18",
+      "lesson_id": 4,
+      "name": "Поиск максимального элемента в массиве.",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:43:57.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:43:57.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [],
+      "grades": [
+        {
+          "id": 34468,
+          "education_load_lesson_id": 11268,
+          "grade_id": 11,
+          "user_id": 1646,
+          "comment": "Ответ на уроке",
+          "created_by": 381,
+          "created_at": "2022-11-26T06:36:23.000000Z",
+          "updated_at": "2022-11-26T06:36:23.000000Z",
+          "grade": {
+            "id": 11,
+            "grade_system_id": 1,
+            "name": "Девятка",
+            "short_name": "9",
+            "cost": 9
+          },
+          "owner": {
+            "id": 381,
+            "first_name": "Ольга",
+            "last_name": "Безруких",
+            "patronymic": "Юрьевна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Безруких Ольга",
+            "secure_phone": "+7(***)***-**-61",
+            "full_name": "Безруких Ольга Юрьевна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11266,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-14",
+      "lesson_id": 4,
+      "name": "Линейный поиск в массиве",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:43:21.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:43:21.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 11264,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-14",
+      "lesson_id": 3,
+      "name": "Массивы. Перебор элементов массива.",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-26T05:42:52.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:42:52.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 8969,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-11",
+      "lesson_id": 5,
+      "name": "Зачет «Процедуры и функции»",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-11T04:23:31.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:40:59.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [],
+      "grades": [
+        {
+          "id": 34467,
+          "education_load_lesson_id": 8969,
+          "grade_id": 11,
+          "user_id": 1646,
+          "comment": "Ответ на уроке",
+          "created_by": 381,
+          "created_at": "2022-11-26T06:36:20.000000Z",
+          "updated_at": "2022-11-26T06:36:20.000000Z",
+          "grade": {
+            "id": 11,
+            "grade_system_id": 1,
+            "name": "Девятка",
+            "short_name": "9",
+            "cost": 9
+          },
+          "owner": {
+            "id": 381,
+            "first_name": "Ольга",
+            "last_name": "Безруких",
+            "patronymic": "Юрьевна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Безруких Ольга",
+            "secure_phone": "+7(***)***-**-61",
+            "full_name": "Безруких Ольга Юрьевна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 8968,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-11-11",
+      "lesson_id": 4,
+      "name": "Зачет «Процедуры и функции»",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-11T04:23:21.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:40:54.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 8967,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-17",
+      "lesson_id": 4,
+      "name": "Стек",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-11T04:22:20.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:40:32.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 8966,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-17",
+      "lesson_id": 3,
+      "name": "Рекурсия",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-11-11T04:22:01.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:40:21.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6079,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-14",
+      "lesson_id": 5,
+      "name": "Логические функции",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:02:16.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:39:55.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6080,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-14",
+      "lesson_id": 4,
+      "name": "Функции",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:02:25.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:39:20.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6078,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-10",
+      "lesson_id": 4,
+      "name": "Изменяемые параметры в процедурах",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:02:03.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:38:55.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6077,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-10",
+      "lesson_id": 3,
+      "name": "Процедуры.",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:01:53.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:38:33.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6075,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-07",
+      "lesson_id": 5,
+      "name": "Зачет «Циклы»",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:01:18.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:38:16.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6076,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-07",
+      "lesson_id": 4,
+      "name": "Зачет «Циклы»",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:01:33.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:38:10.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 4204,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-03",
+      "lesson_id": 4,
+      "name": "Вложенные циклы",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-03T04:13:24.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:37:48.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 4203,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-10-03",
+      "lesson_id": 3,
+      "name": "Вложенные циклы",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-03T04:13:16.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:37:41.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 2934,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-26",
+      "lesson_id": 5,
+      "name": "Цикл с переменной",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-26T03:54:51.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:37:25.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 2008,
+          "education_load_lesson_id": 2934,
+          "body": {
+            "time": 1664165670127,
+            "blocks": [
+              {
+                "id": "K-Kjwpuxml",
+                "type": "paragraph",
+                "data": {
+                  "text": "практикум на двумерные массивы"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-30",
+          "created_at": "2022-09-26T04:14:30.000000Z",
+          "created_by": 381,
+          "updated_at": "2022-09-26T04:14:30.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 2932,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-26",
+      "lesson_id": 4,
+      "name": "Цикл с переменной",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-26T03:54:44.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:37:17.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 2007,
+          "education_load_lesson_id": 2932,
+          "body": {
+            "time": 1664165642529,
+            "blocks": [
+              {
+                "id": "1Gq7iFVUcw",
+                "type": "paragraph",
+                "data": {
+                  "text": "Прак5тикум на двумерные массивы"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-30",
+          "created_at": "2022-09-26T04:14:02.000000Z",
+          "created_by": 381,
+          "updated_at": "2022-09-26T04:14:02.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 5930,
+          "education_load_lesson_id": 2932,
+          "grade_id": 10,
+          "user_id": 1646,
+          "comment": "Решение задач",
+          "created_by": 381,
+          "created_at": "2022-09-26T04:13:09.000000Z",
+          "updated_at": "2022-09-26T04:13:09.000000Z",
+          "grade": {
+            "id": 10,
+            "grade_system_id": 1,
+            "name": "Восьмерка",
+            "short_name": "8",
+            "cost": 8
+          },
+          "owner": {
+            "id": 381,
+            "first_name": "Ольга",
+            "last_name": "Безруких",
+            "patronymic": "Юрьевна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Безруких Ольга",
+            "secure_phone": "+7(***)***-**-61",
+            "full_name": "Безруких Ольга Юрьевна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 1843,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-19",
+      "lesson_id": 4,
+      "name": "Цикл с условием",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-19T04:11:16.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:36:58.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 1265,
+          "education_load_lesson_id": 1843,
+          "body": {
+            "time": 1663561278345,
+            "blocks": [
+              {
+                "id": "nwHnDnTqTU",
+                "type": "paragraph",
+                "data": {
+                  "text": "1) Курс на Степике, контест на&nbsp;https://codeforces.com/"
+                }
+              },
+              {
+                "id": "NoJpZNMCHF",
+                "type": "paragraph",
+                "data": {
+                  "text": "2) тест&nbsp;https://inf-ege.sdamgia.ru/test?id=11365246"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-23",
+          "created_at": "2022-09-19T04:14:42.000000Z",
+          "created_by": 381,
+          "updated_at": "2022-09-19T04:21:18.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1842,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-19",
+      "lesson_id": 3,
+      "name": "Цикл с условием",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-19T04:11:05.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:36:52.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 1264,
+          "education_load_lesson_id": 1842,
+          "body": {
+            "time": 1664165344456,
+            "blocks": [
+              {
+                "id": "odOHFYzTUp",
+                "type": "paragraph",
+                "data": {
+                  "text": "1) Курс на Степике, контест на&nbsp;https://codeforces.com/"
+                }
+              },
+              {
+                "id": "9o4PBZyain",
+                "type": "paragraph",
+                "data": {
+                  "text": "2) тест&nbsp;https://inf-ege.sdamgia.ru/test?id=11365246"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-23",
+          "created_at": "2022-09-19T04:14:22.000000Z",
+          "created_by": 381,
+          "updated_at": "2022-09-26T04:09:04.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 3484,
+          "education_load_lesson_id": 1842,
+          "grade_id": 11,
+          "user_id": 1646,
+          "comment": "Ответ на уроке",
+          "created_by": 381,
+          "created_at": "2022-09-19T05:18:32.000000Z",
+          "updated_at": "2022-09-19T05:18:32.000000Z",
+          "grade": {
+            "id": 11,
+            "grade_system_id": 1,
+            "name": "Девятка",
+            "short_name": "9",
+            "cost": 9
+          },
+          "owner": {
+            "id": 381,
+            "first_name": "Ольга",
+            "last_name": "Безруких",
+            "patronymic": "Юрьевна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Безруких Ольга",
+            "secure_phone": "+7(***)***-**-61",
+            "full_name": "Безруких Ольга Юрьевна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 1708,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-16",
+      "lesson_id": 4,
+      "name": "Зачет Ветвления",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-17T05:26:53.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:36:27.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 1151,
+          "education_load_lesson_id": 1708,
+          "body": {
+            "time": 1663392509234,
+            "blocks": [
+              {
+                "id": "KK3LwHkvEt",
+                "type": "paragraph",
+                "data": {
+                  "text": "1) На сайте Информатикс выполнить задачи 58 параграфа"
+                }
+              },
+              {
+                "id": "Mr94Xa_Vtg",
+                "type": "paragraph",
+                "data": {
+                  "text": "2) Подготовка к самостоятельной работе"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-19",
+          "created_at": "2022-09-17T05:28:29.000000Z",
+          "created_by": 381,
+          "updated_at": "2022-09-17T05:28:29.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1707,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-16",
+      "lesson_id": 3,
+      "name": "Зачет «Ветвления»",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-17T05:26:42.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:35:55.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 1150,
+          "education_load_lesson_id": 1707,
+          "body": {
+            "time": 1663392500803,
+            "blocks": [
+              {
+                "id": "D2yBtdRyEZ",
+                "type": "paragraph",
+                "data": {
+                  "text": "1) На сайте Информатикс выполнить задачи 58 параграфа"
+                }
+              },
+              {
+                "id": "DSbSNFW0g6",
+                "type": "paragraph",
+                "data": {
+                  "text": "2) Подготовка к самостоятельной работе"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-19",
+          "created_at": "2022-09-17T05:28:09.000000Z",
+          "created_by": 381,
+          "updated_at": "2022-09-17T05:28:20.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-12",
+      "lesson_id": 4,
+      "name": "Практикум: использование ветвлений",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-12T04:41:58.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:35:40.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 835,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-12",
+      "lesson_id": 3,
+      "name": "Практикум: использование ветвлений",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-12T04:41:43.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:35:30.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 834,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-09",
+      "lesson_id": 4,
+      "name": "Множественный выбор",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-12T04:40:29.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:35:12.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 833,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-09",
+      "lesson_id": 3,
+      "name": "Сложные условия",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-12T04:40:14.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:34:52.000000Z",
+      "lesson": {
+        "id": 3,
+        "number": 3,
+        "name": "3 урок",
+        "time_start": "10:10",
+        "time_end": "10:50",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 832,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-05",
+      "lesson_id": 5,
+      "name": "Условный оператор",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-12T04:39:46.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:34:34.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 831,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-05",
+      "lesson_id": 4,
+      "name": "Вычисления. Стандартные функции",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-09-12T04:39:04.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:34:13.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6095,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-02",
+      "lesson_id": 8,
+      "name": "Простейшие программы",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:23:24.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:33:52.000000Z",
+      "lesson": {
+        "id": 8,
+        "number": 8,
+        "name": "8 урок",
+        "time_start": "14:20",
+        "time_end": "15:00",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:44.000000Z"
+      },
+      "homeworks": []
+    },
+    {
+      "id": 6094,
+      "education_load_id": 1240,
+      "grade_type_id": 1,
+      "date": "2022-09-02",
+      "lesson_id": 7,
+      "name": "Техника безопасности. Организация рабочего места.",
+      "readiness": 0,
+      "created_by": 381,
+      "created_at": "2022-10-15T04:23:06.000000Z",
+      "updated_by": 381,
+      "updated_at": "2022-11-26T05:33:33.000000Z",
+      "lesson": {
+        "id": 7,
+        "number": 7,
+        "name": "7 урок",
+        "time_start": "13:30",
+        "time_end": "14:10",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:44.000000Z"
+      },
+      "homeworks": []
+    }
+  ]
+}
