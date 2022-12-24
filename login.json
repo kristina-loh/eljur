@@ -1,0 +1,30 @@
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE2NDYsImZsYWdzIjpbInN0dWRlbnQiXSwiZXhwIjoxNjcxNzkwNzkyfQ==.4Vwvp9CVEuCT284Mam7cg6Gkn52BBJ6qo5GeoWJC8w0=",
+  "refreshToken": "crTe0642VzaZ3lMCUxvaBCmh",
+  "user": {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE2NDYsImZsYWdzIjpbInN0dWRlbnQiXSwiZXhwIjoxNjcxNzkwNzkyfQ==.4Vwvp9CVEuCT284Mam7cg6Gkn52BBJ6qo5GeoWJC8w0=",
+    "refreshToken": "crTe0642VzaZ3lMCUxvaBCmh",
+    "id": 1646,
+    "phone": "+7(***)***-**-39",
+    "first_name": null,
+    "last_name": null,
+    "patronymic": "Андреевич",
+    "full_name": "Подкур Артем Андреевич",
+    "name": "Подкур Артем",
+    "shortName": "",
+    "short_name": "",
+    "roles": [
+      {
+        "id": 1,
+        "name": "Учащийся"
+      }
+    ],
+    "access": [
+      "student"
+    ],
+    "adminInClasses": [],
+    "avatar": "",
+    "teacherLoads": [],
+    "children": []
+  }
+}

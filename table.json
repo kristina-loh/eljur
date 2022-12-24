@@ -1,0 +1,1727 @@
+{
+  "id": 1258,
+  "education_load_type_id": 1,
+  "subject_id": 13,
+  "education_group_id": 352,
+  "grade_system_id": 1,
+  "work_program_id": null,
+  "name": null,
+  "hours": 2,
+  "users_excluded": [],
+  "created_at": "2022-09-05T14:20:09.000000Z",
+  "updated_at": "2022-09-05T14:20:09.000000Z",
+  "deleted_at": null,
+  "laravel_through_key": 1645,
+  "subject": {
+    "id": 13,
+    "name": "Обществознание",
+    "short_name": "Общ.",
+    "in_cert": true,
+    "color": "#ab5e34",
+    "created_at": null,
+    "updated_at": null,
+    "deleted_at": null
+  },
+  "group": {
+    "id": 352,
+    "year_id": 2,
+    "year_period_category_id": 1,
+    "name": "10в",
+    "number": 10,
+    "mixed_filter": null,
+    "created_at": "2020-08-30T16:19:50.000000Z",
+    "updated_at": "2022-08-25T06:37:20.000000Z",
+    "deleted_at": null,
+    "last_active_year_period": {
+      "id": 5,
+      "year_id": 2,
+      "year_period_category_id": 1,
+      "name": "I полугодие",
+      "from": "2022-09-01",
+      "to": "2022-12-30",
+      "closed_at": "2022-12-31 00:00:00"
+    }
+  },
+  "grade_system": {
+    "id": 1,
+    "name": "Десятичная (0-9)",
+    "created_at": "2022-08-30T08:53:28.000000Z",
+    "updated_at": "2022-08-30T08:53:29.000000Z",
+    "deleted_at": null
+  },
+  "education_load_type": {
+    "id": 1,
+    "name": "Основная",
+    "color": "green"
+  },
+  "teachers": [
+    {
+      "id": 344,
+      "first_name": "Ольга",
+      "last_name": "Чернова",
+      "patronymic": "Борисовна",
+      "contacts": null,
+      "description": null,
+      "active": 1,
+      "name": "Чернова Ольга",
+      "secure_phone": "+7(***)***-**-68",
+      "full_name": "Чернова Ольга Борисовна",
+      "avatar": "",
+      "pivot": {
+        "education_load_id": 1258,
+        "user_id": 344
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": 14806,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-12-22",
+      "lesson_id": 5,
+      "name": "Многообразие и диалог культур",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-22T05:32:28.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-22T05:32:28.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 8119,
+          "education_load_lesson_id": 14806,
+          "body": {
+            "time": 1671687193471,
+            "blocks": [
+              {
+                "id": "JZYNv33DV8",
+                "type": "paragraph",
+                "data": {
+                  "text": "Проектные задания"
+                }
+              }
+            ],
+            "version": "2.26.0"
+          },
+          "check_at": "2022-12-28",
+          "created_at": "2022-12-22T05:33:13.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-22T05:33:13.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 14695,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-12-21",
+      "lesson_id": 5,
+      "name": "Многообразие и диалог культур",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-21T03:50:40.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-21T03:50:40.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 8078,
+          "education_load_lesson_id": 14695,
+          "body": {
+            "time": 1671594655474,
+            "blocks": [
+              {
+                "id": "x6E8St5onh",
+                "type": "paragraph",
+                "data": {
+                  "text": "15 параграф"
+                }
+              }
+            ],
+            "version": "2.26.0"
+          },
+          "check_at": "2022-12-22",
+          "created_at": "2022-12-21T03:50:55.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-21T03:50:55.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 14295,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-12-15",
+      "lesson_id": 4,
+      "name": "Материальная и духовная культура общества",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-18T12:16:50.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-21T03:46:03.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 8075,
+          "education_load_lesson_id": 14295,
+          "body": {
+            "time": 1671594376033,
+            "blocks": [
+              {
+                "id": "ueMIUYiuqi",
+                "type": "paragraph",
+                "data": {
+                  "text": "14 параграф"
+                }
+              }
+            ],
+            "version": "2.26.0"
+          },
+          "check_at": "2022-12-21",
+          "created_at": "2022-12-21T03:46:16.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-21T03:46:16.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 14294,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-12-14",
+      "lesson_id": 7,
+      "name": "Материальная и духовная культура общества",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-18T12:16:34.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-21T03:45:20.000000Z",
+      "lesson": {
+        "id": 7,
+        "number": 7,
+        "name": "7 урок",
+        "time_start": "13:30",
+        "time_end": "14:10",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:44.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 8074,
+          "education_load_lesson_id": 14294,
+          "body": {
+            "time": 1671594334894,
+            "blocks": [
+              {
+                "id": "8VY2Tfcd3H",
+                "type": "paragraph",
+                "data": {
+                  "text": "14 параграф"
+                }
+              }
+            ],
+            "version": "2.26.0"
+          },
+          "check_at": "2022-12-15",
+          "created_at": "2022-12-21T03:45:34.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-21T03:45:34.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 45119,
+          "education_load_lesson_id": 14294,
+          "grade_id": 11,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-12-18T12:35:06.000000Z",
+          "updated_at": "2022-12-18T12:35:06.000000Z",
+          "grade": {
+            "id": 11,
+            "grade_system_id": 1,
+            "name": "Девятка",
+            "short_name": "9",
+            "cost": 9
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12813,
+      "education_load_id": 1258,
+      "grade_type_id": 2,
+      "date": "2022-12-08",
+      "lesson_id": 4,
+      "name": "Контрольная работа \"Человек и общество\"",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-08T04:22:49.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-20T10:04:27.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 7176,
+          "education_load_lesson_id": 12813,
+          "body": {
+            "time": 1670473409160,
+            "blocks": [
+              {
+                "id": "YsXNyuwlhs",
+                "type": "paragraph",
+                "data": {
+                  "text": "не задано"
+                }
+              }
+            ],
+            "version": "2.26.0"
+          },
+          "check_at": "2022-12-14",
+          "created_at": "2022-12-08T04:23:29.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-08T04:23:29.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 12812,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-12-07",
+      "lesson_id": 5,
+      "name": "Повторение: \"Общество как сложная динамическая система\"",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-08T04:22:20.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-08T04:23:17.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 7175,
+          "education_load_lesson_id": 12812,
+          "body": {
+            "time": 1670473387423,
+            "blocks": [
+              {
+                "id": "Z5DY6lQs_S",
+                "type": "paragraph",
+                "data": {
+                  "text": "подготовка к кр"
+                }
+              }
+            ],
+            "version": "2.26.0"
+          },
+          "check_at": "2022-12-07",
+          "created_at": "2022-12-08T04:22:31.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-08T04:23:07.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 39575,
+          "education_load_lesson_id": 12812,
+          "grade_id": 9,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-12-08T04:25:06.000000Z",
+          "updated_at": "2022-12-08T04:25:06.000000Z",
+          "grade": {
+            "id": 9,
+            "grade_system_id": 1,
+            "name": "Семерка",
+            "short_name": "7",
+            "cost": 7
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12047,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-12-01",
+      "lesson_id": 4,
+      "name": "Современные процессы глобализации",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-12-01T02:34:39.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-12-01T02:34:39.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 6755,
+          "education_load_lesson_id": 12047,
+          "body": {
+            "time": 1669862417206,
+            "blocks": [
+              {
+                "id": "0uXcFCGPlb",
+                "type": "paragraph",
+                "data": {
+                  "text": "подготовка к к/р&nbsp;"
+                }
+              },
+              {
+                "id": "5b20EIczKW",
+                "type": "paragraph",
+                "data": {
+                  "text": "Инфографика&nbsp; стр.116: вопросы 2-6 по два человека, первый вопрос могут делать разные группы.&nbsp; Доп вопросы: влияние соц. сетей на современное общество; международные организации и их роль.&nbsp;"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-12-07",
+          "created_at": "2022-12-01T02:40:17.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-12-01T02:40:17.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 36542,
+          "education_load_lesson_id": 12047,
+          "grade_id": 10,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-12-01T04:41:41.000000Z",
+          "updated_at": "2022-12-01T04:41:41.000000Z",
+          "grade": {
+            "id": 10,
+            "grade_system_id": 1,
+            "name": "Восьмерка",
+            "short_name": "8",
+            "cost": 8
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11962,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-30",
+      "lesson_id": 5,
+      "name": "Современные процессы глобализации",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-30T03:11:02.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-30T03:11:02.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 6732,
+          "education_load_lesson_id": 11962,
+          "body": {
+            "time": 1669786483861,
+            "blocks": [
+              {
+                "id": "sOjyQLfsjL",
+                "type": "paragraph",
+                "data": {
+                  "text": "13 параграф;"
+                }
+              },
+              {
+                "id": "zy5bLusiml",
+                "type": "paragraph",
+                "data": {
+                  "text": "глобальные проблемы, критерии социального прогресса - словосочетания для связки"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-12-01",
+          "created_at": "2022-11-30T03:11:17.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-30T05:34:43.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 10913,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-24",
+      "lesson_id": 4,
+      "name": "Типология обществ",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-24T03:06:25.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-24T03:06:25.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 6361,
+          "education_load_lesson_id": 10913,
+          "body": {
+            "time": 1669259197830,
+            "blocks": [
+              {
+                "id": "jy7gCibdGy",
+                "type": "paragraph",
+                "data": {
+                  "text": "12 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-30",
+          "created_at": "2022-11-24T03:06:37.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-24T03:06:37.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 35593,
+          "education_load_lesson_id": 10913,
+          "grade_id": 4,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-11-29T04:47:06.000000Z",
+          "updated_at": "2022-11-29T04:47:06.000000Z",
+          "grade": {
+            "id": 4,
+            "grade_system_id": 1,
+            "name": "Двойка",
+            "short_name": "2",
+            "cost": 2
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 10910,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-23",
+      "lesson_id": 5,
+      "name": "Многовариантность общественного развития и социальные изменения",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-24T03:05:42.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-24T03:06:06.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 6360,
+          "education_load_lesson_id": 10910,
+          "body": {
+            "time": 1669259158439,
+            "blocks": [
+              {
+                "id": "3f8n24NxbF",
+                "type": "paragraph",
+                "data": {
+                  "text": "11 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-24",
+          "created_at": "2022-11-24T03:05:58.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-24T03:05:58.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 9760,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-17",
+      "lesson_id": 4,
+      "name": "Многовариантность общественного развития и социальные изменения",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-17T04:26:51.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-23T03:07:46.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5855,
+          "education_load_lesson_id": 9760,
+          "body": {
+            "time": 1668670929088,
+            "blocks": [
+              {
+                "id": "dJD0jZEFwz",
+                "type": "paragraph",
+                "data": {
+                  "text": "аргумент по критериям прогресса;&nbsp; 11 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-23",
+          "created_at": "2022-11-17T07:42:09.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-17T07:42:09.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 29956,
+          "education_load_lesson_id": 9760,
+          "grade_id": 9,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-11-17T04:29:08.000000Z",
+          "updated_at": "2022-11-17T04:29:08.000000Z",
+          "grade": {
+            "id": 9,
+            "grade_system_id": 1,
+            "name": "Семерка",
+            "short_name": "7",
+            "cost": 7
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 9783,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-16",
+      "lesson_id": 5,
+      "name": "Системное строение общества",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-17T07:39:34.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-17T07:39:53.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5853,
+          "education_load_lesson_id": 9783,
+          "body": {
+            "time": 1668670878298,
+            "blocks": [
+              {
+                "id": "nb2jLu0Uzf",
+                "type": "paragraph",
+                "data": {
+                  "text": "10 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-17",
+          "created_at": "2022-11-17T07:41:18.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-17T07:41:18.000000Z"
+        },
+        {
+          "id": 5854,
+          "education_load_lesson_id": 9783,
+          "body": {
+            "time": 1668670879909,
+            "blocks": [
+              {
+                "id": "nb2jLu0Uzf",
+                "type": "paragraph",
+                "data": {
+                  "text": "10 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-17",
+          "created_at": "2022-11-17T07:41:19.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-17T07:41:19.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 32894,
+          "education_load_lesson_id": 9783,
+          "grade_id": 8,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-11-23T05:38:42.000000Z",
+          "updated_at": "2022-11-23T05:38:42.000000Z",
+          "grade": {
+            "id": 8,
+            "grade_system_id": 1,
+            "name": "Шестерка",
+            "short_name": "6",
+            "cost": 6
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 8873,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-10",
+      "lesson_id": 4,
+      "name": "Системное строение общества",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-10T10:26:45.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-10T10:26:45.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5415,
+          "education_load_lesson_id": 8873,
+          "body": {
+            "time": 1668076031655,
+            "blocks": [
+              {
+                "id": "duRMEQszhb",
+                "type": "paragraph",
+                "data": {
+                  "text": "10 параграф"
+                }
+              },
+              {
+                "id": "Pm9i_69LHE",
+                "type": "paragraph",
+                "data": {
+                  "text": "Таблица по сферам общества"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-16",
+          "created_at": "2022-11-10T10:27:11.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-10T10:27:11.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 8622,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-11-09",
+      "lesson_id": 5,
+      "name": "Системное строение общества",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-11-09T04:35:00.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-09T04:35:00.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5250,
+          "education_load_lesson_id": 8622,
+          "body": {
+            "time": 1668076010326,
+            "blocks": [
+              {
+                "id": "HA3BB7dFbh",
+                "type": "paragraph",
+                "data": {
+                  "text": "10 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-10",
+          "created_at": "2022-11-09T04:35:13.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-10T10:26:50.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 27305,
+          "education_load_lesson_id": 8622,
+          "grade_id": 11,
+          "user_id": 1645,
+          "comment": "Домашняя работа",
+          "created_by": 344,
+          "created_at": "2022-11-09T05:21:45.000000Z",
+          "updated_at": "2022-11-09T05:21:45.000000Z",
+          "grade": {
+            "id": 11,
+            "grade_system_id": 1,
+            "name": "Девятка",
+            "short_name": "9",
+            "cost": 9
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 7640,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-27",
+      "lesson_id": 4,
+      "name": "Социальное поведение личности",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-27T04:05:53.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-11-09T04:34:36.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5251,
+          "education_load_lesson_id": 7640,
+          "body": {
+            "time": 1667968544169,
+            "blocks": [
+              {
+                "id": "c0-95wTAU0",
+                "type": "paragraph",
+                "data": {
+                  "text": "не задано"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-11-09",
+          "created_at": "2022-11-09T04:35:44.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-09T04:35:44.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 23800,
+          "education_load_lesson_id": 7640,
+          "grade_id": 8,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-10-27T04:25:58.000000Z",
+          "updated_at": "2022-10-27T04:25:58.000000Z",
+          "grade": {
+            "id": 8,
+            "grade_system_id": 1,
+            "name": "Шестерка",
+            "short_name": "6",
+            "cost": 6
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 7513,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-26",
+      "lesson_id": 5,
+      "name": "Социальное поведение личности",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-26T04:53:37.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-26T05:10:25.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5252,
+          "education_load_lesson_id": 7513,
+          "body": {
+            "time": 1667968561665,
+            "blocks": [
+              {
+                "id": "m8ua8sivS0",
+                "type": "paragraph",
+                "data": {
+                  "text": "9 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-27",
+          "created_at": "2022-11-09T04:36:01.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-09T04:36:01.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 27181,
+          "education_load_lesson_id": 7513,
+          "grade_id": 9,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-11-08T09:09:18.000000Z",
+          "updated_at": "2022-11-08T09:09:18.000000Z",
+          "grade": {
+            "id": 9,
+            "grade_system_id": 1,
+            "name": "Семерка",
+            "short_name": "7",
+            "cost": 7
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 7512,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-20",
+      "lesson_id": 4,
+      "name": "Мировоззрение",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-26T04:53:27.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-26T05:10:09.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5253,
+          "education_load_lesson_id": 7512,
+          "body": {
+            "time": 1667968577928,
+            "blocks": [
+              {
+                "id": "pxBT7UVTLx",
+                "type": "paragraph",
+                "data": {
+                  "text": "8 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-26",
+          "created_at": "2022-11-09T04:36:17.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-09T04:36:17.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 6663,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-19",
+      "lesson_id": 5,
+      "name": "Мировоззрение",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-19T04:27:11.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-19T04:27:11.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 3988,
+          "education_load_lesson_id": 6663,
+          "body": {
+            "time": 1666153650733,
+            "blocks": [
+              {
+                "id": "proGBB2wvm",
+                "type": "paragraph",
+                "data": {
+                  "text": "8 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-20",
+          "created_at": "2022-10-19T04:27:30.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-10-19T04:27:30.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 21794,
+          "education_load_lesson_id": 6663,
+          "grade_id": 8,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-10-25T11:02:22.000000Z",
+          "updated_at": "2022-10-25T11:02:22.000000Z",
+          "grade": {
+            "id": 8,
+            "grade_system_id": 1,
+            "name": "Шестерка",
+            "short_name": "6",
+            "cost": 6
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 5626,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-13",
+      "lesson_id": 4,
+      "name": "Общественное и индивидуальное сознание",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-11T17:19:41.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-11T17:19:41.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 5254,
+          "education_load_lesson_id": 5626,
+          "body": {
+            "time": 1667968598521,
+            "blocks": [
+              {
+                "id": "tmVMhifTYY",
+                "type": "paragraph",
+                "data": {
+                  "text": "7 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-19",
+          "created_at": "2022-11-09T04:36:38.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-11-09T04:36:38.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 5625,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-12",
+      "lesson_id": 5,
+      "name": "Естественно-научное и гуманитарное познание",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-11T17:11:57.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-11T17:18:58.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 3477,
+          "education_load_lesson_id": 5625,
+          "body": {
+            "time": 1665508743948,
+            "blocks": [
+              {
+                "id": "Vr038OYETB",
+                "type": "paragraph",
+                "data": {
+                  "text": "6 параграф"
+                }
+              },
+              {
+                "id": "DLR0xM0xZS",
+                "type": "paragraph",
+                "data": {
+                  "text": "Темы 6,7,8 в Степике"
+                }
+              },
+              {
+                "id": "IgksUHPYAi",
+                "type": "paragraph",
+                "data": {
+                  "text": "Разбиться на 5 групп подготовить инфографику или иной компактный схематично обозначенный материал о когнитивных искажениях (минимум 5, искажения по группам не&nbsp; должны повторяться)"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-19",
+          "created_at": "2022-10-11T17:18:41.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-10-11T17:19:04.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 4675,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-06",
+      "lesson_id": 4,
+      "name": "Познание мира",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-06T03:52:05.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-06T03:52:05.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 2953,
+          "education_load_lesson_id": 4675,
+          "body": {
+            "time": 1665028346707,
+            "blocks": [
+              {
+                "id": "crtXh4CdEu",
+                "type": "paragraph",
+                "data": {
+                  "text": "5 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-12",
+          "created_at": "2022-10-06T03:52:26.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-10-06T03:52:26.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 4527,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-10-05",
+      "lesson_id": 5,
+      "name": "Мышление",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-10-05T03:45:02.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-10-05T03:45:02.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 2886,
+          "education_load_lesson_id": 4527,
+          "body": {
+            "time": 1664941527559,
+            "blocks": [
+              {
+                "id": "N0J1qFTdFF",
+                "type": "paragraph",
+                "data": {
+                  "text": "4 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-06",
+          "created_at": "2022-10-05T03:45:27.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-10-05T03:45:27.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 11497,
+          "education_load_lesson_id": 4527,
+          "grade_id": 10,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-10-05T07:22:15.000000Z",
+          "updated_at": "2022-10-05T07:22:15.000000Z",
+          "grade": {
+            "id": 10,
+            "grade_system_id": 1,
+            "name": "Восьмерка",
+            "short_name": "8",
+            "cost": 8
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3449,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-09-29",
+      "lesson_id": 4,
+      "name": "Деятельность человека",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-09-29T04:20:07.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-09-29T04:20:07.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 2290,
+          "education_load_lesson_id": 3449,
+          "body": {
+            "time": 1664425329240,
+            "blocks": [
+              {
+                "id": "cAOdjxOTc9",
+                "type": "paragraph",
+                "data": {
+                  "text": "3&nbsp; параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-10-05",
+          "created_at": "2022-09-29T04:22:09.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-09-29T04:22:09.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 7577,
+          "education_load_lesson_id": 3449,
+          "grade_id": 9,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-09-29T10:15:11.000000Z",
+          "updated_at": "2022-09-29T10:15:11.000000Z",
+          "grade": {
+            "id": 9,
+            "grade_system_id": 1,
+            "name": "Семерка",
+            "short_name": "7",
+            "cost": 7
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3356,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-09-28",
+      "lesson_id": 5,
+      "name": "Социализация личности",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-09-28T04:56:04.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-09-28T05:17:37.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 2247,
+          "education_load_lesson_id": 3356,
+          "body": {
+            "time": 1664342269289,
+            "blocks": [
+              {
+                "id": "Nag60zTNv_",
+                "type": "paragraph",
+                "data": {
+                  "text": "2 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-29",
+          "created_at": "2022-09-28T05:17:49.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-09-28T05:17:49.000000Z"
+        }
+      ],
+      "grades": [
+        {
+          "id": 7596,
+          "education_load_lesson_id": 3356,
+          "grade_id": 6,
+          "user_id": 1645,
+          "comment": "Ответ на уроке",
+          "created_by": 344,
+          "created_at": "2022-09-29T10:17:04.000000Z",
+          "updated_at": "2022-09-29T10:17:04.000000Z",
+          "grade": {
+            "id": 6,
+            "grade_system_id": 1,
+            "name": "Четверка",
+            "short_name": "4",
+            "cost": 4
+          },
+          "owner": {
+            "id": 344,
+            "first_name": "Ольга",
+            "last_name": "Чернова",
+            "patronymic": "Борисовна",
+            "contacts": null,
+            "description": null,
+            "active": 1,
+            "name": "Чернова Ольга",
+            "secure_phone": "+7(***)***-**-68",
+            "full_name": "Чернова Ольга Борисовна",
+            "avatar": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 2406,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-09-22",
+      "lesson_id": 4,
+      "name": "Социализация личности",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-09-22T03:38:27.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-09-22T03:38:27.000000Z",
+      "lesson": {
+        "id": 4,
+        "number": 4,
+        "name": "4 урок",
+        "time_start": "11:00",
+        "time_end": "11:40",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:42.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 1660,
+          "education_load_lesson_id": 2406,
+          "body": {
+            "time": 1663817924564,
+            "blocks": [
+              {
+                "id": "b0ZCbcm72f",
+                "type": "paragraph",
+                "data": {
+                  "text": "2 параграф"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-28",
+          "created_at": "2022-09-22T03:38:44.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-09-22T03:38:44.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 2292,
+      "education_load_id": 1258,
+      "grade_type_id": 1,
+      "date": "2022-09-21",
+      "lesson_id": 5,
+      "name": "Человек как результат биологического и социального развития",
+      "readiness": 0,
+      "created_by": 344,
+      "created_at": "2022-09-21T05:10:06.000000Z",
+      "updated_by": 344,
+      "updated_at": "2022-09-21T05:10:06.000000Z",
+      "lesson": {
+        "id": 5,
+        "number": 5,
+        "name": "5 урок",
+        "time_start": "11:50",
+        "time_end": "12:30",
+        "year_id": 2,
+        "updated_at": "2022-09-01T03:28:43.000000Z"
+      },
+      "homeworks": [
+        {
+          "id": 1572,
+          "education_load_lesson_id": 2292,
+          "body": {
+            "time": 1663737044734,
+            "blocks": [
+              {
+                "id": "bxtdb3J4zP",
+                "type": "paragraph",
+                "data": {
+                  "text": "1 параграф"
+                }
+              },
+              {
+                "id": "r_AKFXh5bN",
+                "type": "paragraph",
+                "data": {
+                  "text": "Биологические основы человека"
+                }
+              }
+            ],
+            "version": "2.25.0"
+          },
+          "check_at": "2022-09-22",
+          "created_at": "2022-09-21T05:10:44.000000Z",
+          "created_by": 344,
+          "updated_at": "2022-09-21T05:10:44.000000Z"
+        }
+      ]
+    }
+  ]
+}
